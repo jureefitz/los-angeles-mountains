@@ -1,7 +1,45 @@
-h1 {
-    font-family: Poppins;
-    font-style: normal;
-    font-size: 96px;
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #fff;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,
+    0.1)),
+    url("../images/ls-mounts.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 130px 0;
+    
+}
+
+header h1 {
     font-weight: 700;
-    line-height: normal;
+    font-size: 96px;
+    line-height: 1;
+    margin: 30px 0;
+}
+
+.los-angeles-header {
+    color: #4D4D4D
+}
+
+.mountains-header {
+    color: #3B4863;
+}
+
+@media (max-width: 800px) {
+    header {
+        padding: 60px 0;
+    }
+
+    header h1 {
+        font-size: 48px;
+    }
 }
