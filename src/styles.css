@@ -28,11 +28,13 @@ header h1 {
 }
 
 .los-angeles-header {
-    color: #4D4D4D
+    color: #4D4D4D;
+    font-weight: lighter;
 }
 
 .mountains-header {
     color: #3B4863;
+    font-weight: lighter;
 }
 
 @media (max-width: 800px) {
