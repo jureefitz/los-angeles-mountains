@@ -1,17 +1,17 @@
 body {
-    font-family: "Poppins", sans-serif;
-    background-color: #3B4863;
+  font-family: "Poppins", sans-serif;
+  background-color: #3B4863;
 }
 .container {
-    max-width: 1400px;
-    margin: 0 auto;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 nav {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 nav .logo {
- border: 2px solid #c0C2c3;
+  border: 2px solid #c0C2c3;
   border-radius: 50%;
   width: 45px; 
   height: 46px;
@@ -19,141 +19,178 @@ nav .logo {
 }
 
 header {
-    background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,
-    0.1)),
-    url("../images/header-mountains.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 130px 0;
-    text-transform: uppercase;
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,
+  0.1)),
+  url("../images/header-mountains.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 130px 0;
+  text-transform: uppercase;
     
 }
 
 header h1 {
-    font-weight: 700;
-    font-size: 96px;
-    line-height: 1;
-    margin: 30px 0;
+  font-weight: 700;
+  font-size: 96px;
+  opacity: 0.7;
+  line-height: 1;
+  margin: 30px 0;
 }
 
 .los-angeles-header {
-    color: #4D4D4D;
-    font-weight: lighter;
+  color: #4D4D4D;
+  font-weight: lighter;
 }
 
 .mountains-header {
-    color: #3B4863;
-    font-weight: lighter;
+  color: #3B4863;
+  font-weight: lighter;
 }
 
 nav .logo-los-angeles {
-    border: 2px solid #c0C2c3;
-    border-radius: 10px;
-    width: 154px;
-    height: 56px;
-    margin-left: 108px;
-    padding: 5px;
+  border: 2px solid #c0C2c3;
+  border-radius: 10px;
+  width: 154px;
+  height: 56px;
+  margin-left: 108px;
+  padding: 5px;
 }
 
 nav ol {
-    padding: 0;
-    margin: 0;
-    margin-right: 70px;
+  padding: 0;
+  margin: 0;
+  margin-right: 70px;
 }
 
 nav li {
-    display: inline;
-    line-height: 42px;
-    margin-left: 15px;
-    font-style: italic;
+  display: inline;
+  line-height: 42px;
+  margin-left: 15px;
+  font-style: italic;
 }
 
 nav a {
-    color: #3B4863;
-    transition: all 100ms ease-in-out;
+  color: #3B4863;
+  transition: all 100ms ease-in-out;
 }
 
 nav a:hover, nav .active a {
-    color: #c0C2c3;
+  color: #c0C2c3;
+}
+
+header, nav, section {
+  max-width: 1200px;
+  margin: auto;
 }
 
 .slideshow-container {
-    position: relative;
-    width: 100%;
-  }
+  position: relative;
+  width: 100%;
+} 
+
+.slideshow {
+  display: flex;
+  overflow: hidden;
+}
   
-  .slideshow {
-    display: flex;
-    overflow: hidden;
-  }
+.slideshow img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
   
-  .slideshow img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.3s ease-in-out;
-  }
+.image-previews {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
   
-  .image-previews {
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-  }
+.image-previews img {
+  width: 70px;
+  height: auto;
+  margin: 0 5px;
+  cursor: pointer;
+}
   
-  .image-previews img {
-    width: 70px;
-    height: auto;
-    margin: 0 5px;
-    cursor: pointer;
-  }
+.image-previews img:hover {
+  opacity: 0.7;
+}
+
+.image-text-container {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,
+  0.2)),
+  url("../slideshow/mountain-fog-img.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 160px 0;
+  text-transform: uppercase;
+}
   
-  .image-previews img:hover {
-    opacity: 0.7;
-  }
+.text-overlay h2 {
+  opacity: 0.6;
+}
 
-  .image-text-container {
-    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,
-    0.2)),
-    url("../slideshow/mountain-fog-img.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-    padding: 130px 0;
-    text-transform: uppercase;
-  }
-  .text-overlay h2 {
-    opacity: 0.6;
+.text-overlay p {
+  padding-bottom: 85px;
+  text-align: center;
+  opacity: 0.7;
+}
 
- }
-  .text-overlay p {
-    padding-bottom: 85px;
-    text-align: center;
-    opacity: 0.7;
-  }
+.climb-section {
+  background-color: #fff;
+  margin-top: 10px;
+}
 
-  footer img {
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    padding: 130px 0;
-    text-transform: uppercase;
-  }
+.climb-section h2 {
+  text-align: center;
+  opacity: 0.5;
+}
 
-  .footer-logo {
-    border: #c0C2c3;
-    border-radius: 10px;
-    width: 154px;
-    height: 56px;
-    margin-left: 108px;
-    padding: 6px;
-  }
+.climb-section p {
+  padding-bottom: 25px;
+  text-align: center;
+  opacity: 0.7;
+}
 
+.table {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
 
-@media (max-width: 800px) {
+.img-responsive {
+  max-width: 100%;
+  height: 460px;
+}
+
+footer {
+  color: white;
+}
+
+.footer-logo {
+  border: #c0C2c3;
+  border-radius: 10px;
+  width: 154px;
+  height: 56px;
+  margin-left: 108px;
+  padding: 6px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer p {
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 24px
+}
+
+@media (max-width: 960px) {
     header {
         padding: 60px 0;
     }
@@ -166,10 +203,6 @@ nav a:hover, nav .active a {
         margin-right: 85px;
     }
 
-    footer img {
-      padding: 50px 0;
-    }
-
     .text-overlay h2 {
         font-size: 20px;
     }
@@ -177,5 +210,17 @@ nav a:hover, nav .active a {
     .text-overlay p {
         font-size: 10px;
         padding: 5px;
+    }
+
+    .image-text-container {
+      padding: 60px 0;
+    }
+
+    .img-responsive {
+      height: auto;
+    }
+
+    footer p {
+      margin-left: 10px;
     }
 }
