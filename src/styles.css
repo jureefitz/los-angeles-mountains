@@ -162,6 +162,12 @@ header, nav, section {
   margin: 0 auto;
 }
 
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .img-responsive {
   max-width: 100%;
   height: 460px;
@@ -214,6 +220,10 @@ footer p {
 
     .image-text-container {
       padding: 60px 0;
+    }
+
+    .schedule-container{
+      font-size: 12px;
     }
 
     .img-responsive {
