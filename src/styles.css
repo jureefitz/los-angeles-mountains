@@ -162,6 +162,16 @@ header, nav, section {
   margin: 0 auto;
 }
 
+.schedule-container h3 {
+  padding-top: 5px;
+  margin-bottom: 0;
+}
+
+.schedule-container ul {
+  padding: 10px;
+  margin-bottom: 0;
+}
+
 li {
   list-style: none;
   margin: 0;
